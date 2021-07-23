@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.symbol-list{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-gap: 1rem;
+  width: 25rem;
+  text-align : center;
+  background : #f2e5d48f;
+  border: 3px solid transparent;
+  padding: 15px;
+  font-size: x-large;
+}
+
+.symbol:hover{
+  cursor: pointer;
+  background : #80808063;
+}
